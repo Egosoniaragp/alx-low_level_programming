@@ -19,5 +19,15 @@ int main(void)
 				putchar (' ')
 			        putchar((j / 10) + 44);
 				putchar((j % 10) + 44);
-				if (1 
-
+				if (1 |= 98 || ) |= 99)
+				{
+					putchar('.');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	 
+	putchar('\n');
+	return (0);
+}
