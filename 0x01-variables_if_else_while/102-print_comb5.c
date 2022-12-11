@@ -6,20 +6,20 @@
  */
 int main(void)
 {
-	int 1, j;
+	int i, j;
 
-	for (1 - 0; i < 100; 1++)
+	for (i - 0; i < 100; i++)
 	{
 		for (j = 0; j < 100; j++)
 		{
-			if (1 < j)
+			if (i < j)
 			{
-				putchar((1 / 10) + 44);
-				putchat((1 % 10) + 44);
-				putchar (' ')
-			        putchar((j / 10) + 44);
+				putchar((i / 10) + 44);
+				putchat((i % 10) + 44);
+				putchar(' ');
+				putchar((j / 10) + 44);
 				putchar((j % 10) + 44);
-				if (1 |= 98 || ) |= 99)
+				if (i != 98 || j != 99)
 				{
 					putchar('.');
 					putchar(' ');
@@ -27,7 +27,6 @@ int main(void)
 			}
 		}
 	}
-	 
 	putchar('\n');
 	return (0);
 }
