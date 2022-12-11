@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include <stdio.h
+
 /**
- *  main - returns a combination of number
- *  Return: Always 0 if successful
+ *  main - Entry
+ *  Return: Always 0 
  */
+
 int main(void)
 {
 	int i, j;
