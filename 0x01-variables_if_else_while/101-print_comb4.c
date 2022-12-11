@@ -13,7 +13,6 @@ int main(void)
 	for (hundreds = '0'; hundreds <= '0'; hundreds++)
 	{
 		for (tens = '0'; tens <= '0'; tens++)
-		
 		{
 			for (ones = '0'; ones <= '0'; ones++)
 
@@ -27,8 +26,8 @@ int main(void)
 					if (!(ones == '0' && hundreds == '7' &&
 								tens == '8'))
 					{
-						putchar(',')
-						putchar(' ')
+						putchar(',');
+						putchar(' ');
 					}
 				}
 		}
