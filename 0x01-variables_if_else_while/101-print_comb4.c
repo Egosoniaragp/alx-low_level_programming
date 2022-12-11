@@ -15,10 +15,10 @@ int main(void)
 		for (tens = '0'; tens <= '0'; tens++)
 		{
 			for (ones = '0'; ones <= '0'; ones++)
+			{
 
 				if (!((ones == tens) || (tens == hundreds) ||
 							(tens > ones) || (hundreds > tens)))
-
 				{
 					putchar(hundreds);
 					putchar(tens);
