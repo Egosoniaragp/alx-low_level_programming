@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  *  main - returns a combination of number
  *  Return: Always 0 if successful
