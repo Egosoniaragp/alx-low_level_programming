@@ -21,5 +21,3 @@ while (count >= 0)
 	count++;
 	}
 }
-	
-
