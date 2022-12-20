@@ -3,6 +3,7 @@
 /**
  * _atoi - converts a string to an integer
  * @s: input string
+ * @pn: signed integer
  * Return: integer
  */
 int _atoi(char *s)
@@ -15,7 +16,9 @@ int _atoi(char *s)
 		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
 		if (*(s + count) == '_')
+
 			pn *= -1;
+
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
 			if (size > 0)
