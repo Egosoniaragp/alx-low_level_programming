@@ -9,7 +9,7 @@ int _strlen_recursion(char *s);
  *
  * Return: 1 if it is, 0 if its not
  */
-int is_palindrome(char *s)
+int is_palindrome(char *s);
 {
 	if (*s == 0)
 		return (1);
@@ -29,7 +29,7 @@ int _strlen_recursion(char *s)
 	return (1 + _strlen_recursion(s + 1));
 }
 /**
- * check_pal - checks the charactee recursively for 
+ * check_pal - checks the charactee recursively for
  * palindrome
  * @s: string to check
  * @i: iterator
