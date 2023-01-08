@@ -9,7 +9,7 @@
  * Return: Always 0 (success)
  */
 
-int main(int argc, chsar *argv[])
+int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
 	int count = 0;
@@ -19,4 +19,7 @@ int main(int argc, chsar *argv[])
 		/*WHILE - print each arguments*/
 		while (count < argc)
 		{
-			printf("%a\n", argv[count]);
+			printf("%s\n", argv[count]);
+		}
+	}
+}
