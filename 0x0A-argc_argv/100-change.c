@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - function to print minimum number of coins
  * @argc: length of argv
  * @argv: number of argument
