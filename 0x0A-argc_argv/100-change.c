@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
-	int position, total, change aux;
+	int position, total, change, aux;
 	int coins[] = {25, 10, 5, 2, 1}; /*Array int*/
 
 	position = total = change = aux = 0;
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
 	total = atoi(argv[1]); /*Covert str to int*/
 
-	if (total <= )
+	if (total <= 0)
 	{
 		printf("0\n");
 		return (0);
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	while (coins[position] != '\0')
 
 	{
-		if (total >= coins[position]);
+		if (total >= coins[position])
 		{
 			aux = (total / coins[position]);
 			change += aux;
@@ -45,6 +45,6 @@ int main(int argc, char *argv[])
 
 	}
 
-	printf("%\n", change);
+	printf("%d\n", change);
 	return (0);
 }
