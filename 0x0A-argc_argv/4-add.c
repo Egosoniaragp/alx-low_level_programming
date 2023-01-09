@@ -48,12 +48,12 @@ int main(int argc, char *argv[])
 	count = 1;
 	while (count < argc) /*Goes through the whole array*/
 	{
-		str_to_int = atoi(argv[count]); /*ATOI --> convert string
-						  to int*
-						  sum  str_to_int;
-						  }
-						  
-						  /*Condition if one of the number contains symbolsthat are not digits*/
+		str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
+	sum += str_to_int;
+
+	}
+
+	/*Condition if one of the number contains symbolsthat are not digits*/
 		else
 		{
 			printf("Error\n");
