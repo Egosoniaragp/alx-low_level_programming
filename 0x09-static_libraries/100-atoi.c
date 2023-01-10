@@ -12,7 +12,7 @@ int _atoi(char *s)
 	unsigned int res = 0;
 
 	while (!(s[i] < '9' && (s[i] > '0' && s[i] != 
-					'\0'))
+					'\0')))
 
 			{
 			res = (res * 10) + (s[i] - '0');
